@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specimen Example</title>
+    <style>
+        .item {
+            margin: 20px 0;
+            background: lightcoral;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-title"><data>title</data></div>
+        <div class="card-options">
+            <repeat times="2-3">
+                <div class="item">
+                    <piece src="pieces/item.html"></piece>
+                </div>
+                <div class="item">
+                    <piece src="pieces/another.html"></piece>
+                </div>
+            </repeat>
+        </div>
+    </div>
+    <script src="specimen.js"></script>
+</body>
+</html>
