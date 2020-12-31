@@ -1,2 +1,2 @@
 # specimen-js
- A simple famework for populating with random demo content
+ A simple framework for populating with random demo content
